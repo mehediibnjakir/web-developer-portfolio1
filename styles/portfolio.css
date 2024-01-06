@@ -81,12 +81,16 @@ nav a {
     margin-bottom: 30px;
 }
 /* main sections style */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section style */
 .about {
     padding: 130px;
     background-color: #FFF8F3;
-    margin: 130px 230px;
+    margin: 130px ;
 }
 .section-title {
     color: #181818;
@@ -100,5 +104,20 @@ nav a {
         font-size: 18px;
         font-weight: 400;
     line-height: 30px; /* 166.667% */
-
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+    height: fixed 60px;
+    width: fixed 168px;    
+    padding: 25px;
+}
+div > h4 {
+    font-weight: normal;
+}
+div > p {
+    font-weight: bolder ;
 }
