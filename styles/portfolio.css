@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 226px;
 }
 /* primary button and text */
 .text-primary {
@@ -17,10 +18,10 @@ nav {
     border: 0px;
     border-radius: 5px;
     background: #FD6E0A;
-    color: white;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: 700;
+    color: white;
 }
 
 .nav-title {
@@ -43,4 +44,17 @@ nav a {
 }
 /* header related style */
 .header1 {
+    background: #FFF8F3;
+    width: 1600px;
+    height: 837px;
+    flex-shrink: 0;
+}
+.banner {
+    padding: 30px 30px 30px 226px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-p {
+    width: 584px;
+    height: 650px;
 }
