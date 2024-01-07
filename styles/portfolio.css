@@ -1,8 +1,9 @@
 /* common shared style */
-body { 
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Lato' , sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
 }
+
 /* nav related style */
 nav {
     display: flex;
@@ -10,14 +11,16 @@ nav {
     align-items: center;
     padding: 0px 226px;
 }
+
 /* primary button and text */
 .text-primary {
-    color: #FD6E0A;
+    color: #fd6e0a;
 }
+
 .btn-primary {
     border: 0px;
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #fd6e0a;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: 700;
@@ -29,7 +32,8 @@ nav {
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -38,36 +42,43 @@ nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related style */
 .header {
-    background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background: #fff8f3;
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right ;
+    background-position: bottom right;
 }
+
 .banner {
     padding: 30px 30px 0px 226px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .banner-content {
     width: 585px;
 }
+
 .banner .profile-p {
     width: 584px;
     height: 650px;
 }
+
 .banner-grittings {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0px;
 }
+
 .banner-title {
     color: #181818;
     font-size: 85px;
@@ -75,49 +86,140 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 .banner-text {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
 }
+
 /* main sections style */
 main {
     max-width: 1140px;
     margin: 0px auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section style */
 .about {
     padding: 130px;
-    background-color: #FFF8F3;
-    margin: 130px ;
+    background-color: #fff8f3;
+    margin: 130px;
 }
+
 .section-title {
     color: #181818;
     text-align: center;
-        font-size: 35px;
-        font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
 }
+
 .section-text {
     color: #757575;
     text-align: center;
-        font-size: 18px;
-        font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
+
+/* style about section  */
+.about {
+    width: 72%;
+    max-width: 1140px;
+}
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
 }
+
 .about-info {
     text-align: center;
     height: fixed 60px;
-    width: fixed 168px;    
+    width: fixed 168px;
     padding: 25px;
 }
-div > h4 {
+
+div>h4 {
     font-weight: normal;
 }
-div > p {
-    font-weight: bolder ;
+
+div>p {
+    font-weight: bolder;
+}
+
+#section-text {
+    padding: 30px 150px;
+    border: #fd6e0a;
+}
+
+/* skill style section 2 */
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+/* resume section style*/
+.resume-container {
+    display: flex;
+    gap: 70px;
+    background: #FFF;
+}
+
+.resume-column {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-info .achievement .title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.resume-info .achievement .degree-year {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20;
+    margin-top: 0px;
+
+}
+
+.resume-info .achievement .skill-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+.btn-download {
+    text-align: center;
+    margin-top: 50px;
 }
