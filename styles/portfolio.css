@@ -129,7 +129,7 @@ main section {
 /* style about section  */
 .about {
     width: 72%;
-    max-width: 1140px;
+    max-width: 1600px;
 }
 
 .about-info-container {
@@ -219,7 +219,60 @@ div>p {
     line-height: 28px;
     /* 175% */
 }
+
 .btn-download {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer style */
+footer {
+    background-color: #FFF8F3;
+    flex-shrink: 0;
+    margin: 130px 0px auto;
+}
+
+.foot-container {
+    display: flex;
+    gap: 20px;
+}
+
+.foot-container .foot-col {
+    width: 50%;
+}
+
+.foot-container .foot-col .form-style > input {
+    display: block;
+    gap: 24px;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px;
+    font-size: 30px;
+    border: none;
+}
+footer textarea {
+    padding: 18px;
+    font-size: 30px;
+    border: none;
+}
+
+
+.foot-container .icon-sm {
+    display: flex;
+    gap: 10px;
+}
+
+.foot-container .skill-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin: 20px 0px 30px 0px;
+}
+
+.foot-col {
+    margin: 10px 0px;
 }
